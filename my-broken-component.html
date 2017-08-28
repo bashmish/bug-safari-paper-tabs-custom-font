@@ -1,0 +1,38 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="./typography.html">
+
+<dom-module id="my-broken-component">
+    <template>
+        <style>
+            paper-tabs {
+                background-color: gray;
+                color: white;
+                width: 300px;
+            }
+
+            paper-tab[link] a {
+                @apply --layout-horizontal;
+                @apply --layout-center-center;
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+
+        <paper-tabs attr-for-selected="tab-id" selected="broken-width" noink>
+            <paper-tab link tab-id="home">
+                <a href="#" tabindex="-1">Home</a>
+            </paper-tab>
+            <paper-tab link tab-id="broken-width">
+                <a href="#" tabindex="-1">Broken Width</a>
+            </paper-tab>
+        </paper-tabs>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'my-broken-component'
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "INGMe";
+    src: url("INGMe/INGMeWeb-Regular.woff2") format("woff2"),
+    url("INGMe/INGMeWeb-Regular.woff") format("woff"),
+    url("INGMe/INGMeWeb-Regular.ttf") format("truetype"),
+    url("INGMe/INGMeWeb-Regular.svg#INGMeWeb-Regular") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}

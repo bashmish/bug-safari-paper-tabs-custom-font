@@ -1,0 +1,13 @@
+{
+  "name": "bug-safari-paper-tabs-custom-font",
+  "version": "1.0.0",
+  "authors": [
+    "Mikhail Bashkirov <bashmish@gmail.com>"
+  ],
+  "description": "Broken paper-tabs in Safari: #selectionBar size is wrong if custom font is used",
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0.1",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#1.0.1",
+    "paper-tabs": "PolymerElements/paper-tabs#2.0.0"
+  }
+}
